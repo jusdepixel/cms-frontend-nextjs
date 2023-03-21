@@ -1,0 +1,16 @@
+@import "layout/admin";
+
+@import "components/logo";
+@import "components/link";
+@import "components/label";
+@import "components/input";
+@import "components/button";
+
+body {
+    background-color: $body-bg;
+    color: $body-color;
+}
+
+.block-bg {
+    background-color: $block-bg;
+}

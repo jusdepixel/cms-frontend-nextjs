@@ -1,0 +1,27 @@
+[type='text'], [type='email'], [type='url'], [type='password'], [type='number'],
+[type='date'], [type='datetime-local'], [type='month'], [type='search'],
+[type='tel'], [type='time'], [type='week'],
+[type='checkbox'], [type='radio'],
+[multiple], textarea, select {
+    border-color: $color-border-input;
+    box-shadow: none;
+    color: $color-input;
+}
+
+[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus,
+[type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus,
+[type='tel']:focus, [type='time']:focus, [type='week']:focus, [type='checkbox']:focus,
+[multiple]:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: $color-border-input-focus;
+    box-shadow: none;
+}
+
+[type='checkbox'] {
+    position: relative;
+    top: -1px;
+}
+[type='checkbox']:focus, [type='checkbox']:active,
+[type='radio']:focus, [type='radio']:active {
+    color: $color-border-input-focus;
+}

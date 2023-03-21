@@ -3,7 +3,7 @@ const ApplicationLogo = props => (
         className={`logo ${
             props.className !== undefined ? props.className : 'default'
         }`}>
-        Logo
+        CMS Frontend next.js
     </span>
 )
 

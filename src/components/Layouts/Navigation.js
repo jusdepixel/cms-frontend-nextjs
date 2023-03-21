@@ -18,7 +18,7 @@ const Navigation = ({ user }) => {
     const [open, setOpen] = useState(false)
 
     return (
-        <nav className="bg-admin-nav border-b border-admin-nav">
+        <nav className="admin-nav border-b">
             {/* Primary Navigation Menu */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
@@ -26,12 +26,12 @@ const Navigation = ({ user }) => {
                         {/* Logo */}
                         <div className="flex-shrink-0 flex items-center">
                             <Link href="/admin/dashboard">
-                                <ApplicationLogo className="block h-10 w-auto fill-current" />
+                                <ApplicationLogo />
                             </Link>
                         </div>
 
                         {/* Navigation Links */}
-                        <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                        <div className="admin-nav-link hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                             <NavLink
                                 href="/admin/dashboard"
                                 active={router.pathname === '/admin/dashboard'}>
@@ -46,7 +46,7 @@ const Navigation = ({ user }) => {
                             align="right"
                             width="48"
                             trigger={
-                                <button className="flex items-center text-sm font-medium focus:outline-none transition duration-150 ease-in-out">
+                                <button className="dropdown flex items-center text-sm font-medium focus:outline-none transition duration-150 ease-in-out">
                                     <div>{user?.name}</div>
 
                                     <div className="ml-1">

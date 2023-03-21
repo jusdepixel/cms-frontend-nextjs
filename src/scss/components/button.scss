@@ -1,0 +1,25 @@
+button, [type='button'], [type='reset'], [type='submit'] {
+    background-color: $color-button-bg;
+    color: $color-button-text;
+    font-weight: 700;
+    &:hover, &:focus, &:active {
+        background-color: $color-button-bg-hover;
+        color: $color-button-text-hover;
+    }
+    &.dropdown {
+        background-color: transparent;
+        color: $admin-nav-link;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+}
+
+.dropdown-menu button {
+    background-color: $dropdown-menu-bg;
+    color: $dropdown-menu-text;
+    font-weight: 400;
+    &:hover {
+        background-color: $dropdown-menu-bg-hover;
+        color: $dropdown-menu-text-hover;
+    }
+}

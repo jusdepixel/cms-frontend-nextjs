@@ -106,17 +106,15 @@ const Login = () => {
                                 }
                             />
 
-                            <span className="ml-2 text-sm text-gray-600">
-                                Remember me
-                            </span>
+                            <span className="ml-2 text-sm ">Remember me</span>
                         </label>
                     </div>
 
                     <div className="flex items-center justify-end mt-4">
                         <Link
                             href="/user/forgot-password"
-                            className="underline text-sm">
-                            Forgot your password?
+                            className="border text-sm">
+                            Forgot your password ?
                         </Link>
 
                         <Button className="ml-3">Login</Button>

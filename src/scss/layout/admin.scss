@@ -1,0 +1,24 @@
+.admin {
+    background-color: $admin-bg;
+    .admin-nav {
+        background-color: $admin-nav-bg;
+        .admin-nav-link {
+            a {
+                font-weight: 300;
+                color: $admin-nav-link;
+                border-color: transparent;
+                font-size: 1rem;
+                &.admin-nav-active {
+                    color: $admin-nav-link-active;
+                    border-color: $admin-nav-link-active-border;
+                }
+            }
+        }
+    }
+    header {
+        background-color: $admin-header-bg;
+        h2 {
+            font-weight: 300;
+        }
+    }
+}

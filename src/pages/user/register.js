@@ -115,8 +115,8 @@ const Register = () => {
                     </div>
 
                     <div className="flex items-center justify-end mt-4">
-                        <Link href="/user/login" className="underline text-sm">
-                            Already registered?
+                        <Link href="/user/login" className="border text-sm">
+                            Already registered ?
                         </Link>
 
                         <Button className="ml-4">Register</Button>

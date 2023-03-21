@@ -1,0 +1,16 @@
+a {
+    color: $color-link;
+    &:hover {
+        color: $color-link-hover;
+    }
+    &.border {
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        border-style: solid;
+        border-color: $color-link-border;
+        &:hover {
+            border-color: $color-link-border-hover;
+        }
+    }
+}

@@ -7,9 +7,7 @@ const GuestLayout = ({ children }) => {
                 <title>CMS Frontend next.js</title>
             </Head>
 
-            <div className="font-sans text-gray-900 antialiased">
-                {children}
-            </div>
+            <div className="font-sans antialiased">{children}</div>
         </div>
     )
 }

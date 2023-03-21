@@ -1,9 +1,9 @@
-import AppLayout from '@/components/Layouts/AppLayout'
+import AdminLayout from '@/components/Layouts/AdminLayout'
 import Head from 'next/head'
 
 const Dashboard = () => {
     return (
-        <AppLayout
+        <AdminLayout
             header={
                 <h2 className="font-semibold text-xl leading-tight">
                     Dashboard
@@ -15,12 +15,12 @@ const Dashboard = () => {
 
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div className="overflow-hidden shadow-sm">
+                    <div className="overflow-hidden shadow-sm block-bg">
                         <div className="p-6">You're logged in!</div>
                     </div>
                 </div>
             </div>
-        </AppLayout>
+        </AdminLayout>
     )
 }
 

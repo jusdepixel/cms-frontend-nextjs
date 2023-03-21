@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>cms-frontend-nextjs</title>
+                <title>CMS Frontend next.js</title>
             </Head>
 
             <div className="relative items-top flex flex-col justify-center min-h-screen sm:items-center sm:pt-0">
@@ -25,15 +25,13 @@ export default function Home() {
                         </Link>
                     ) : (
                         <>
-                            <Link
-                                href="/user/login"
-                                className="text-sm underline">
+                            <Link href="/user/login" className="text-sm border">
                                 Login
                             </Link>
 
                             <Link
                                 href="/user/register"
-                                className="ml-4 text-sm underline">
+                                className="ml-4 text-sm border">
                                 Register
                             </Link>
                         </>
