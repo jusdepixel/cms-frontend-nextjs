@@ -50,7 +50,6 @@ const Register = () => {
                             id="name"
                             type="text"
                             value={name}
-                            className="block mt-1 w-full"
                             onChange={event => setName(event.target.value)}
                             required
                             autoFocus
@@ -67,7 +66,6 @@ const Register = () => {
                             id="email"
                             type="email"
                             value={email}
-                            className="block mt-1 w-full"
                             onChange={event => setEmail(event.target.value)}
                             required
                         />
@@ -83,7 +81,6 @@ const Register = () => {
                             id="password"
                             type="password"
                             value={password}
-                            className="block mt-1 w-full"
                             onChange={event => setPassword(event.target.value)}
                             required
                             autoComplete="new-password"
@@ -105,7 +102,6 @@ const Register = () => {
                             id="passwordConfirmation"
                             type="password"
                             value={passwordConfirmation}
-                            className="block mt-1 w-full"
                             onChange={event =>
                                 setPasswordConfirmation(event.target.value)
                             }
@@ -119,9 +115,7 @@ const Register = () => {
                     </div>
 
                     <div className="flex items-center justify-end mt-4">
-                        <Link
-                            href="/user/login"
-                            className="underline text-sm text-gray-600 hover:text-gray-900">
+                        <Link href="/user/login" className="underline text-sm">
                             Already registered?
                         </Link>
 

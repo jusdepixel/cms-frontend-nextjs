@@ -43,7 +43,7 @@ const PasswordReset = () => {
             <AuthCard
                 logo={
                     <Link href="/">
-                        <ApplicationLogo className="w-20 h-20 fill-current text-gray-500" />
+                        <ApplicationLogo className="w-20 h-20 fill-current" />
                     </Link>
                 }>
                 {/* Session Status */}
@@ -74,7 +74,6 @@ const PasswordReset = () => {
                             id="password"
                             type="password"
                             value={password}
-                            className="block mt-1 w-full"
                             onChange={event => setPassword(event.target.value)}
                             required
                         />
@@ -95,7 +94,6 @@ const PasswordReset = () => {
                             id="passwordConfirmation"
                             type="password"
                             value={passwordConfirmation}
-                            className="block mt-1 w-full"
                             onChange={event =>
                                 setPasswordConfirmation(event.target.value)
                             }

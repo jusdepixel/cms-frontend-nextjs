@@ -22,7 +22,7 @@ const VerifyEmail = () => {
                         <ApplicationLogo />
                     </Link>
                 }>
-                <div className="mb-4 text-sm text-gray-600">
+                <div className="mb-4 text-sm">
                     Thanks for signing up! Before getting started, could you
                     verify your email address by clicking on the link we just
                     emailed to you? If you didn't receive the email, we will
@@ -44,7 +44,7 @@ const VerifyEmail = () => {
 
                     <button
                         type="button"
-                        className="underline text-sm text-gray-600 hover:text-gray-900"
+                        className="underline text-sm"
                         onClick={logout}>
                         Logout
                     </button>

@@ -12,7 +12,7 @@ export default function Home() {
                 <title>cms-frontend-nextjs</title>
             </Head>
 
-            <div className="relative items-top flex flex-col justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
+            <div className="relative items-top flex flex-col justify-center min-h-screen sm:items-center sm:pt-0">
                 <Link href="/">
                     <ApplicationLogo />
                 </Link>
@@ -20,20 +20,20 @@ export default function Home() {
                     {user ? (
                         <Link
                             href="/admin/dashboard"
-                            className="ml-4 text-sm text-gray-700 underline">
+                            className="ml-4 text-sm underline">
                             Dashboard
                         </Link>
                     ) : (
                         <>
                             <Link
                                 href="/user/login"
-                                className="text-sm text-gray-700 underline">
+                                className="text-sm underline">
                                 Login
                             </Link>
 
                             <Link
                                 href="/user/register"
-                                className="ml-4 text-sm text-gray-700 underline">
+                                className="ml-4 text-sm underline">
                                 Register
                             </Link>
                         </>
