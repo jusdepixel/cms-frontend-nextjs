@@ -8,7 +8,7 @@ const Dashboard = () => {
                 <h2 className="font-semibold text-xl leading-tight">Users</h2>
             }>
             <Head>
-                <title>CMS Frontend next.js - Dashboard</title>
+                <title>CMS Frontend next.js - Users</title>
             </Head>
 
             <div className="py-12">

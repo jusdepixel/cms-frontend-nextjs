@@ -20,8 +20,8 @@ export default function Home() {
                     {user ? (
                         <Link
                             href="/admin/dashboard"
-                            className="ml-4 text-sm underline">
-                            Dashboard
+                            className="ml-4 text-sm border">
+                            Admin
                         </Link>
                     ) : (
                         <>
