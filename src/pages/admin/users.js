@@ -8,13 +8,13 @@ const Dashboard = () => {
                 <h2 className="font-semibold text-xl leading-tight">Users</h2>
             }>
             <Head>
-                <title>CMS Frontend next.js - Users</title>
+                <title>CMS Frontend next.js - Dashboard</title>
             </Head>
 
             <div className="py-12">
                 <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                     <div className="overflow-hidden shadow-sm block-bg">
-                        <div className="p-6">You're logged in!</div>
+                        <div className="p-6">In progress...</div>
                     </div>
                 </div>
             </div>
