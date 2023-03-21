@@ -1,5 +1,6 @@
 # cms-frontend-nextjs
-From [Laravel Breeze - Next.js Edition](https://github.com/laravel/breeze-next) Thx ;) 
+From [Laravel Breeze - Next.js Edition](https://github.com/laravel/breeze-next) Thx ;)   
+In connection with [jusdepixel/cms-backend-laravel](https://github.com/jusdepixel/cms-backend-laravel)
 
 ### Refactor :
 * new _app.js  
