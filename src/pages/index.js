@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useAuth } from '@/hooks/auth'
+import ApplicationLogo from '@/components/ApplicationLogo'
 
 export default function Home() {
     const { user } = useAuth({ middleware: 'guest' })
@@ -11,7 +12,10 @@ export default function Home() {
                 <title>cms-frontend-nextjs</title>
             </Head>
 
-            <div className="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
+            <div className="relative items-top flex flex-col justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
+                <Link href="/">
+                    <ApplicationLogo />
+                </Link>
                 <div className="px-6 py-4 sm:block">
                     {user ? (
                         <Link
