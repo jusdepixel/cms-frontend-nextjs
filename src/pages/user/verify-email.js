@@ -9,7 +9,7 @@ import { useState } from 'react'
 const VerifyEmail = () => {
     const { logout, resendEmailVerification } = useAuth({
         middleware: 'auth',
-        redirectIfAuthenticated: '/dashboard',
+        redirectIfAuthenticated: '/admin/dashboard',
     })
 
     const [status, setStatus] = useState(null)
