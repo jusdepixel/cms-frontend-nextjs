@@ -1,18 +1,25 @@
 module.exports = {
     root: true,
-    parser: '@babel/eslint-parser',
     env: {
         node: true,
         browser: true,
         es6: true,
         commonjs: true,
     },
+    settings: {
+        react: {
+            version: 'detect',
+        },
+    },
     extends: [
         'eslint:recommended',
         'plugin:react/recommended',
         'plugin:prettier/recommended',
+        'plugin:react/jsx-runtime',
     ],
     parserOptions: {
+        sourceType: 'module',
+        parser: 'eslint-parser',
         ecmaFeatures: {
             jsx: true,
         },
